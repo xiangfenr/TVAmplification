@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical"
+    android:paddingTop="30dp"
+    tools:context=".CeshiActivity">
+
+
+    <TextView
+        android:id="@+id/tvTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:text="TV焦点选中放大"
+        android:textColor="#333333"
+        android:textSize="24sp" />
+
+
+    <RelativeLayout
+        android:id="@+id/relaBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true">
+
+        <ImageView
+            android:id="@+id/imageBtn1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="30dp"
+            android:focusable="true"
+            android:src="@drawable/banner1_clicked"
+            android:tag="imageBtn1" />
+
+        <ImageView
+            android:id="@+id/imageBtn2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_toRightOf="@+id/imageBtn1"
+            android:focusable="true"
+            android:src="@drawable/banner1_clicked"
+            android:tag="imageBtn2" />
+
+
+        <ImageView
+            android:id="@+id/imageBtn3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/imageBtn2"
+            android:layout_toRightOf="@+id/imageBtn2"
+            android:focusable="true"
+            android:src="@drawable/banner1_clicked"
+            android:tag="imageBtn3" />
+
+        <ImageView
+            android:id="@+id/imageBtn4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/imageBtn3"
+            android:layout_toRightOf="@+id/imageBtn2"
+            android:focusable="true"
+            android:src="@drawable/banner1_clicked"
+            android:tag="imageBtn4" />
+
+        <ImageView
+            android:id="@+id/imageBtn5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/imageBtn1"
+            android:layout_alignLeft="@+id/imageBtn1"
+            android:focusable="true"
+            android:src="@drawable/banner1_clicked"
+            android:tag="imageBtn5" />
+
+        <ImageView
+            android:id="@+id/imageBtn6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/imageBtn1"
+            android:layout_marginBottom="25dp"
+            android:layout_toRightOf="@+id/imageBtn5"
+            android:focusable="true"
+            android:src="@drawable/banner1_clicked"
+            android:tag="imageBtn6" />
+
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

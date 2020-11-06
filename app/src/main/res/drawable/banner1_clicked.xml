@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--是否取得焦点，比如用户选择了一个文本框。-->
+    <item android:drawable="@mipmap/imgchecked" android:state_focused="true" />
+    <item android:drawable="@mipmap/imgdefault" android:state_focused="false" />
+</selector>
